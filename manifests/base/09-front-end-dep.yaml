@@ -22,8 +22,8 @@ spec:
           args: [ "start" ]
           resources:
             limits:
-              cpu: 300m
-              memory: 1000Mi
+              cpu: 1000m
+              memory: 1024Mi
             requests:
               cpu: 100m
               memory: 300Mi
@@ -59,3 +59,4 @@ spec:
             medium: Memory
       nodeSelector:
         node.openshift.io/os_id: rhcos
+        node-role.kubernetes.io/power: ""

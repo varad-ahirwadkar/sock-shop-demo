@@ -24,8 +24,8 @@ spec:
           args: [ "-port=8080" ]
           resources:
             limits:
-              cpu: 200m
-              memory: 200Mi
+              cpu: 1000m
+              memory: 1024Mi
             requests:
               cpu: 99m
               memory: 100Mi
@@ -53,3 +53,4 @@ spec:
             periodSeconds: 5
       nodeSelector:
         node.openshift.io/os_id: rhcos
+        node-role.kubernetes.io/power: ""
