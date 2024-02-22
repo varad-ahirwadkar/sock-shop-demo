@@ -21,9 +21,6 @@ spec:
           image: quay.io/powercloud/sock-shop-user:latest
           imagePullPolicy: Always
           resources:
-            limits:
-              cpu: 4000m
-              memory: 1024Mi
             requests:
               cpu: 100m
               memory: 100Mi

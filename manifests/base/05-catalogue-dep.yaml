@@ -25,9 +25,6 @@ spec:
             - -port=8080
             - -DSN=root:admin@tcp(catalogue-db:3306)/socksdb
           resources:
-            limits:
-              cpu: 4000m
-              memory: 1024Mi
             requests:
               cpu: 100m
               memory: 100Mi

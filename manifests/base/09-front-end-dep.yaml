@@ -21,9 +21,6 @@ spec:
           command: [ "/usr/bin/npm" ]
           args: [ "start" ]
           resources:
-            limits:
-              cpu: 4000m
-              memory: 1024Mi
             requests:
               cpu: 100m
               memory: 300Mi

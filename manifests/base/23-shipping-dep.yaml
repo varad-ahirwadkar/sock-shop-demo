@@ -28,9 +28,6 @@ spec:
             - name: JAVA_OPTS
               value: -Xms64m -Xmx128m -XX:+UseG1GC -Djava.security.egd=file:/dev/urandom -Dspring.zipkin.enabled=false
           resources:
-            limits:
-              cpu: 4000m
-              memory: 1024Mi
             requests:
               cpu: 100m
               memory: 300Mi
