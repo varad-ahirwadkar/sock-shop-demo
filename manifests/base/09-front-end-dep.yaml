@@ -22,7 +22,7 @@ spec:
           args: [ "start" ]
           resources:
             limits:
-              cpu: 1000m
+              cpu: 4000m
               memory: 1024Mi
             requests:
               cpu: 100m
